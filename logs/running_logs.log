@@ -190,3 +190,91 @@ Connection: close
 
 [2022-10-18 13:22:41,963: INFO: stage_01_get_data]: >>>>> stage stage 01 get data completed!<<<<<
 
+[2022-10-20 23:25:40,514: INFO: stage_01_get_data]: 
+********************
+[2022-10-20 23:25:40,514: INFO: stage_01_get_data]: >>>>> stage stage 01 get data started <<<<<
+[2022-10-20 23:25:40,522: INFO: common]: yaml file: configs/config.yaml loaded successfully
+[2022-10-20 23:25:40,522: INFO: common]: created directory at: data
+[2022-10-20 23:25:40,522: INFO: stage_01_get_data]: Download started
+[2022-10-20 23:28:15,077: INFO: stage_01_get_data]: Download completed
+[2022-10-20 23:28:15,078: INFO: stage_01_get_data]: Download file is present at: data\data.xml
+[2022-10-20 23:28:15,117: INFO: stage_01_get_data]: Download headers: x-amz-id-2: +DbTiYrAyQ2E1ZHl6WFb46l22RWvl8Do3nGNfgVdLSYHZWmuZlJncvjj5T1hsIohD2NmxKjeYZDF0cCZym+slg==
+x-amz-request-id: 6ZVPNKFF5A4TZ1ST
+Date: Thu, 20 Oct 2022 21:25:05 GMT
+Last-Modified: Tue, 18 Oct 2022 00:30:29 GMT
+ETag: "bf7eaa28ecc8e7af14695bc914c69427-3"
+Accept-Ranges: bytes
+Content-Type: text/xml
+Server: AmazonS3
+Content-Length: 37891850
+Connection: close
+
+
+[2022-10-20 23:28:15,120: INFO: stage_01_get_data]: >>>>> stage stage 01 get data completed!<<<<<
+
+[2022-10-20 23:29:56,882: INFO: stage_01_get_data]: 
+********************
+[2022-10-20 23:29:56,882: INFO: stage_01_get_data]: >>>>> stage stage 01 get data started <<<<<
+[2022-10-20 23:29:56,886: INFO: common]: yaml file: configs/config.yaml loaded successfully
+[2022-10-20 23:29:56,886: INFO: common]: created directory at: data
+[2022-10-20 23:29:56,886: INFO: stage_01_get_data]: Download started
+[2022-10-20 23:31:31,840: INFO: stage_01_get_data]: Download completed
+[2022-10-20 23:31:31,840: INFO: stage_01_get_data]: Download file is present at: data\data.xml
+[2022-10-20 23:31:31,848: INFO: stage_01_get_data]: Download headers: x-amz-id-2: w2V7IQLe8oN6xQLuwNHXkW7VunXar4ucvPupo4AaH0Y3irqbvp0u7Blny8gFIYoyIzszI+9kF4kbS+vik1SnEQ==
+x-amz-request-id: EZ8782Z27EA60ZZH
+Date: Thu, 20 Oct 2022 21:29:21 GMT
+Last-Modified: Tue, 18 Oct 2022 00:30:29 GMT
+ETag: "bf7eaa28ecc8e7af14695bc914c69427-3"
+Accept-Ranges: bytes
+Content-Type: text/xml
+Server: AmazonS3
+Content-Length: 37891850
+Connection: close
+
+
+[2022-10-20 23:31:31,850: INFO: stage_01_get_data]: >>>>> stage stage 01 get data completed!<<<<<
+
+[2022-10-20 23:39:41,576: INFO: stage_01_get_data]: 
+********************
+[2022-10-20 23:39:41,576: INFO: stage_01_get_data]: >>>>> stage stage 01 get data started <<<<<
+[2022-10-20 23:39:41,577: INFO: common]: yaml file: configs/config.yaml loaded successfully
+[2022-10-20 23:39:41,577: INFO: common]: created directory at: data
+[2022-10-20 23:39:41,577: INFO: stage_01_get_data]: Download started
+[2022-10-20 23:41:17,741: INFO: stage_01_get_data]: Download completed
+[2022-10-20 23:41:17,747: INFO: stage_01_get_data]: Download file is present at: data\data.xml
+[2022-10-20 23:41:17,754: INFO: stage_01_get_data]: Download headers: x-amz-id-2: RGBr9kwZXlM+jGXV6xoIyskHZkOz9kF9ZI6g8YPiBtM1f9RRQbZIt+dFF3YJP1415pDYjlNQ750=
+x-amz-request-id: 4M9TBTDJTT16A314
+Date: Thu, 20 Oct 2022 21:39:06 GMT
+Last-Modified: Tue, 18 Oct 2022 00:30:29 GMT
+ETag: "bf7eaa28ecc8e7af14695bc914c69427-3"
+Accept-Ranges: bytes
+Content-Type: text/xml
+Server: AmazonS3
+Content-Length: 37891850
+Connection: close
+
+
+[2022-10-20 23:41:17,755: INFO: stage_01_get_data]: >>>>> stage stage 01 get data completed!<<<<<
+
+[2022-10-20 23:44:27,130: INFO: stage_01_get_data]: 
+********************
+[2022-10-20 23:44:27,130: INFO: stage_01_get_data]: >>>>> stage stage 01 get data started <<<<<
+[2022-10-20 23:44:27,131: INFO: common]: yaml file: configs/config.yaml loaded successfully
+[2022-10-20 23:44:27,131: INFO: common]: created directory at: data
+[2022-10-20 23:44:27,131: INFO: stage_01_get_data]: Download started
+[2022-10-20 23:49:44,937: INFO: stage_01_get_data]: Download completed
+[2022-10-20 23:49:44,937: INFO: stage_01_get_data]: Download file is present at: data\data.xml
+[2022-10-20 23:49:44,948: INFO: stage_01_get_data]: Download headers: x-amz-id-2: 5BK27Nlko1U7tfDzqlqvn//gUNN7JvSmq2nBhBTp73ncH8VNmzN5bRrb8Z2L8+lCOFHg8otRS5PICN86ovX8Yw==
+x-amz-request-id: MVZNYJF8MS541S1X
+Date: Thu, 20 Oct 2022 21:43:52 GMT
+Last-Modified: Tue, 18 Oct 2022 00:30:29 GMT
+ETag: "bf7eaa28ecc8e7af14695bc914c69427-3"
+Accept-Ranges: bytes
+Content-Type: text/xml
+Server: AmazonS3
+Content-Length: 37891850
+Connection: close
+
+
+[2022-10-20 23:49:44,948: INFO: stage_01_get_data]: >>>>> stage stage 01 get data completed!<<<<<
+

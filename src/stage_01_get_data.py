@@ -2,7 +2,7 @@ import argparse
 from fileinput import filename
 import os
 import logging
-from utils.common import read_yaml, create_directories
+from src.utils.common import read_yaml, create_directories
 import urllib.request as req
 
 
