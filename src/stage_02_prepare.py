@@ -2,7 +2,9 @@ import argparse
 from fileinput import filename
 import os
 import logging
+import random
 from src.utils.common import read_yaml, create_directories
+from src.utils.data_mngmt import process_posts
 import urllib.request as req
 
 STAGE = "stage 02 prepare data"
@@ -20,7 +22,32 @@ def main(config_path, params_path):
     ## read config files
     config = read_yaml(config_path)
     params = read_yaml(params_path)
-    pass
+    
+    local_data_dir = config["source_download_dir"]["data_dir"]
+    data_filename = config["source_download_dir"]["data_file"]
+    input_data = os.path.join(local_data_dir, data_filename)
+
+    split = params["prepare"]["split"]
+    seed = params["prepare"]["seed"]
+
+    random.seed(seed)
+
+    artifacts = config["artifacts"]
+    prepared_data_dir_path = os.path.join(artifacts["ARTIFACTS_DIR"], artifacts["PREPARED_DATA"])
+    create_directories([prepared_data_dir_path])
+
+    train_data_path = os.path.join(prepared_data_dir_path, artifacts["TRAIN_DATA"])
+    test_data_path = os.path.join(prepared_data_dir_path, artifacts["TEST_DATA"])
+
+    encode = "utf-8"
+    with open(input_data, encoding=encode) as f_in:
+        with open(train_data_path,'w', encoding=encode) as f_out_train:
+            with open(test_data_path, 'w', encoding=encode) as f_out_test:
+                process_posts(f_in,f_out_train,f_out_test,'<python>',split)
+
+
+
+
 
 
 if __name__ == '__main__':
