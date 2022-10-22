@@ -5,6 +5,10 @@ artifacts:
   PREPARED_DATA: prepared
   TRAIN_DATA: train.tsv
   TEST_DATA: test.tsv
+  FEATURIZED_DATA: features
+  FEATURIZED_TRAIN_DATA: train.pkl
+  FEATURIZED_TEST_DATA: test.pkl
+
 
 source_data_url: https://nlp-dvc.s3.us-east-2.amazonaws.com/data.xml
 
