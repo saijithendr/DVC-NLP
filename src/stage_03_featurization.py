@@ -1,12 +1,10 @@
 import argparse
 import os
-import shutil
 import numpy as np
 from tqdm import tqdm
 import logging
 from src.utils.common import read_yaml, create_directories, get_df
 from src.utils.featurize import save_matrix
-import random
 from sklearn.feature_extraction.text import CountVectorizer, TfidfTransformer
 
 STAGE = "stage_03_featurization" 
